@@ -1,2 +1,2 @@
 # swe_berkeley
-New website for UC Berkeley SWE Section
+Website for UC Berkeley SWE Section, built with React + Tailwind CSS.
