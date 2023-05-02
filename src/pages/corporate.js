@@ -5,6 +5,9 @@ import { Container, Row, Col } from "react-bootstrap";
 const Corporate = () => {
   return (
     <div>
+      {/* TODO: 3 squares with forms */}
+      {/* TODO: scrolling photo cards */}
+      {/* TODO: 2023-24 sponsors */}
     <Container>
       <Row>
         <Col>

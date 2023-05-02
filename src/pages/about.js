@@ -4,6 +4,10 @@ import { Container, Row, Col } from "react-bootstrap";
 const About = () => {
   return (
     <div className="about">
+      {/* TODO: mission section */}
+      {/* TODO: 3D award graphic */}
+      {/* TODO: land acknowledgement */}
+      {/* TODO: FAQ */}
       <Container>
         <Row>
           <Col>

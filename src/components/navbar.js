@@ -10,6 +10,8 @@ import { LinkContainer } from 'react-router-bootstrap'
 const Navigation = () => {
   return (
     <Navbar className='color-nav' expand="lg">
+      {/* TODO: highlight selected component in navbar instead of blue glitch */}
+      {/* FIXME: Make the size of dropdowns smaller */}
       <Container>
         <Navbar.Brand>
           <LinkContainer to="/">
@@ -31,8 +33,6 @@ const Navigation = () => {
               <Nav.Link>ABOUT</Nav.Link>
             </LinkContainer>
             <NavDropdown title="OUTREACH" id="basic-nav-dropdown">
-              {/* FIXME: Make the size of these smaller */}
-              {/* FIXME: Weird blue glitch when clicked on - related to css? */}
               <NavDropdown.Item>
                 <LinkContainer to="/outreach_e">
                   <Nav.Link>Elementary School</Nav.Link>

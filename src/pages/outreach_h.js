@@ -5,6 +5,9 @@ const HSOutreach = () => {
   return (
     <div>
     <Container>
+      {/* TODO: events and their descriptions */}
+      {/* TODO: slide through image cards that shake when moved */}
+      {/* TODO: ask Clara about database */}
       <Row>
         <Col>
           <h2>High School Outreach</h2>

@@ -5,6 +5,12 @@ import { Container, Row, Col } from "react-bootstrap";
 const Home = () => {
   return (
     <div>
+      {/* TODO: add background image */}
+      {/* TODO: what is swe */}
+      {/* TODO: puzzle pieces */}
+      {/* TODO: live instagram feed */}
+      {/* TODO: calendar of events */}
+      {/* TODO: connect with us */}
     <Container>
       <Row>
         <Col>

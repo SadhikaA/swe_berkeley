@@ -4,6 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const MSOutreach = () => {
   return (
     <div>
+      {/* TODO: events and their descriptions */}
+      {/* TODO: slide through image cards that shake when moved */}
     <Container>
       <Row>
         <Col>
