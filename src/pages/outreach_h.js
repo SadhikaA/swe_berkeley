@@ -4,6 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 const HSOutreach = () => {
   return (
     <div>
+            <div className="h1-rectangle">
+        <Container><h1>High School Outreach</h1></Container>
+      </div>
     <Container>
       {/* TODO: events and their descriptions */}
       {/* TODO: slide through image cards that shake when moved */}

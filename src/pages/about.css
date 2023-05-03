@@ -1,0 +1,35 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/awards.css');
+
+/** Smaller headings for about pages */
+.about-heading {
+    padding-top: 12px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #603B8E;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/** Lines next to smaller headings for about pages */
+.about-heading:before, .about-heading:after {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 2px;
+    content: '\a0';
+    background-color: #603B8E;
+}
+.about-heading:before {
+    margin-left: -55%;
+}
+.about-heading:after {
+    margin-left: 5%;
+}
+
+img {
+    width: 50%;
+}

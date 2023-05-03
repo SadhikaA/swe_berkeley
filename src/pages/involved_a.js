@@ -6,6 +6,9 @@ const InvolvedAlumni = () => {
     <div>
       {/* TODO: ask Rebecca what should go on this page */}
       {/* TODO: alumni links - add pics of alumni dinner */}
+      <div className="h1-rectangle">
+        <Container><h1>Alumni Involvement</h1></Container>
+      </div>
     <Container>
       <Row>
         <Col>

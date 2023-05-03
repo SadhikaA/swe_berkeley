@@ -1,4 +1,4 @@
-import swe from '../swe.png';
+import swe from '../images/swe.png';
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';

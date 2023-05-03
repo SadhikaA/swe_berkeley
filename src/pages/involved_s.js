@@ -4,6 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 const InvolvedStudents = () => {
   return (
     <div>
+      <div className="h1-rectangle">
+        <Container><h1>Student Involvement</h1></Container>
+      </div>
       {/* TODO: membership squares */}
       {/* TODO: clicking opens descriptions */}
       {/* TODO: 3D animated squares for committees */}
