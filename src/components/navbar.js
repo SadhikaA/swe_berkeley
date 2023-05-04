@@ -66,10 +66,14 @@ const Navigation = () => {
                 </LinkContainer>
               </NavDropdown.Item>
             </NavDropdown>
+            <LinkContainer to="/officers">
+              <Nav.Link>OFFICERS</Nav.Link>
+            </LinkContainer>
             {/* TODO: add link to SWE medium: https://medium.com/uc-berkeley-swe */}
             <LinkContainer to="">
               <Nav.Link>BLOG</Nav.Link>
             </LinkContainer>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

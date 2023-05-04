@@ -15,6 +15,7 @@ import OutreachHigh from './pages/outreach_h';
 import Corporate from './pages/corporate';
 import InvolvedAlumni from './pages/involved_a';
 import InvolvedStudent from './pages/involved_s';
+import Officers from './pages/officers';
 
 function App() {
 return (
@@ -29,6 +30,7 @@ return (
         <Route path='/corporate' element={<Corporate/>} />
         <Route path='/involved_a' element={<InvolvedAlumni/>} />
         <Route path='/involved_s' element={<InvolvedStudent/>} />
+        <Route path='/officers' element={<Officers/>} />
     </Routes>
     <Footer />
     </Router>
