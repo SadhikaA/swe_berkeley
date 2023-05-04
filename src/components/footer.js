@@ -21,26 +21,26 @@ const Footer = () => {
           <p className="m-0 text-center text-white">
             <Container>
               <Row>
-                <Col>
-                  <img src={facebook} alt="Facebook Logo"/>
-                  <img src={instagram} alt="Instagram Logo"/>
-                  <img src={twitter} alt="Twitter Logo"/>
-                  <img src={linkedin} alt="LinkedIn Logo"/>
-                  <img src={youtube} alt="YouTube Logo"/>
-                  <img src={spotify} alt="Spotify Logo"/>
-                  <img src={shop} alt="Shop Logo"/>
-                  <img src={tiktok} alt="Tiktok Logo"/>
+                <Col className="icon">
+                   {/* TODO: contacts */}
+                  <a href="https://www.facebook.com/SWE-UC-Berkeley-110515020740706/"><img className="icons" src={facebook} alt="Facebook Logo"/></a>
+                  <a href="https://www.instagram.com/ucb_swe"><img className="icons" src={instagram} alt="Instagram Logo"/></a>
+                  <a href="https://twitter.com/UCB_SWE"><img className="icons" src={twitter} alt="Twitter Logo"/></a>
+                  <a href="https://www.linkedin.com/company/uc-berkeley-swe"><img className="icons" src={linkedin} alt="LinkedIn Logo"/></a>
+                  <a href="https://www.youtube.com/user/BerkeleySWE"><img className="icons" src={youtube} alt="YouTube Logo"/></a>
+                  <a href="https://open.spotify.com/show/7N32339d1A3GtiO2jz4T8I"><img className="icons" src={spotify} alt="Spotify Logo"/></a>
+                  <a href="https://www.redbubble.com/people/ucbswe/shop"><img className="icons" src={shop} alt="Shop Logo"/></a>
+                  <a href="https://www.tiktok.com/@ucb_swe"><img className="icons" src={tiktok} alt="Tiktok Logo"/></a>
+                  <p>Copyright &copy; Society of Women Engineers 2023</p>
+            <img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png" alt="Hosted by the OCF"/>
                 </Col>
                 <Col>
+            {/* TODO: do we have an address? */}
+            <p>Address<br></br>University of California, Berkeley</p>
+            <p>UC Berkeley SWE  acknowledges that UC Berkeley sits on the territory of xučyun (Huichin), the ancestral and unceded land of the Chochenyo speaking Ohlone people, the successors of the sovereign Verona Band of Alameda County.</p>
                 </Col>
                 </Row>
             </Container>
-            {/* TODO: contacts */}
-            {/* TODO: address */}
-            {/* TODO: land acknowledgement */}
-            <p>Copyright &copy; Society of Women Engineers 2023</p>
-            {/* TODO: OCF mark */}
-            <img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png" alt="Hosted by the OCF"/>
           </p>
         </div>
       </footer>

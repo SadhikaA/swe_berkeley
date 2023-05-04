@@ -1,0 +1,10 @@
+.icons {
+    width: 7vh;
+    padding: 12px;
+    align-items: center;
+}
+
+.icons:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+}
