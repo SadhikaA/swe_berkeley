@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Button, Col } from "react-bootstrap";
-import empty from "../images/empty.png";
+import alum1 from "../images/alum1.jpg";
+import alum2 from "../images/alum2.jpg";
   
 const InvolvedAlumni = () => {
   return (
@@ -10,22 +11,14 @@ const InvolvedAlumni = () => {
       </div>
     <Container>
     <h5>Our alumni go on to successful careers in all fields of engineering, and become role models and mentors for current undergraduate students. Alumni can stay in touch with UCB SWE through our alumni newsletter, our LinkedIn presence, and more. Alumni near Berkeley are also invited to the several alumni socials we hold each semester. In addition, many alumni choose to stay involved with the national Society of Women Engineers as professional members.</h5>
-    <Button>Sign up for the alumni mailing list</Button>
+    <a href="https://tinyurl.com/ucbswealumni"><Button>Sign up for the alumni mailing list</Button></a>
       <Row>
         <Col>
-          <img src={empty} alt="empty"/>
+          <img src={alum1} style={{width: '50%'}} alt="empty"/>
           <h5>Alumni Brunch</h5>
         </Col>  
         <Col>
-        <img src={empty} alt="empty"/>
-        </Col>
-      </Row>
-      <Row>
-      <Col>
-          <img src={empty} alt="empty"/>
-        </Col>  
-        <Col>
-        <img src={empty} alt="empty"/>
+        <img src={alum2} style={{width: '50%'}} alt="empty"/>
         </Col>
       </Row>
     </Container>
