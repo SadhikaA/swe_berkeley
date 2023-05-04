@@ -5,6 +5,7 @@ import gold from "../images/gold.png";
 import silver from "../images/silver.png";
 import { Container, Row, Col, Accordion } from "react-bootstrap";
 
+
 const About = () => {
   return (
     <div className="about">
@@ -58,42 +59,42 @@ const About = () => {
           UC Berkeley SWE  acknowledges that UC Berkeley sits on the territory of xučyun (Huichin), the ancestral and unceded land of the Chochenyo speaking Ohlone people, the successors of the sovereign Verona Band of Alameda County.
           We recognize that every member of the Berkeley community has, and continues to benefit from, the use and occupation of this land, since the institution’s founding in 1868. Consistent with our values of community, inclusion, and diversity, we have a responsibility to acknowledge and make visible the university’s relationship to Native peoples. As members of the Berkeley community, it is vitally important that we not only recognize the history of the land on which we stand but also, we recognize that the Muwekma Ohlone people are alive and flourishing members of the Berkeley and broader Bay Area communities today.
         </p>
-        {/* TODO: FAQ */}
         <div className="about-heading">Frequently Asked Questions</div>
-        <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>What opportunities does SWE provide for UC Berkeley students?</Accordion.Header>
-        <Accordion.Body>
-        SWE organizes many different events for students throughout the semester. We hold infosessions and career workshops with our sponsors, giving students the unique opportunity to network with industry leaders and professionals. There are also volunteer opportunities through our various outreach programs. Furthermore, we have socials and hangouts for members to come and have fun together. We also can't forget about our advocacy, equity, and inclusion focused workshops! To stay up to date with all the latest events, sign up for our weekly SWEmails!
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>What opportunities does SWE provide for elementary, middle school, and high school students?</Accordion.Header>
-        <Accordion.Body>
-        SWE has many different outreach programs for all elementary, middle school, high school, and prospective students. To learn more about them visit our outreach page.
-          Who can join?
-          SWE is open to all UC Berkeley students who are interested! Our members come from a diverse background of engineers and other STEM-related fields. Regardless of major, gender, and identities, SWE is an inclusive space for anyone who is passionate about Gender Equality in STEM.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="2">
-        <Accordion.Header>How can I get involved in SWE?</Accordion.Header>
-        <Accordion.Body>
-        The best way to get involved is to become a committee member and/or apprentice. Our committee applications open at our first General Meeting of the semester. Our officer applications open towards the end of every semester. To learn more about each position visit our get involved page.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="3">
-        <Accordion.Header>Our company is interested in partnering with SWE. Where do we start?</Accordion.Header>
-        <Accordion.Body>
-        We're excited to have you join us! You can view our corporate package and learn more at our corporate page.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="4">
-        <Accordion.Header>More questions?</Accordion.Header>
-        <Accordion.Body>
-        You can email us at swe.berkeley@gmail.com for any of your inquiries. We try to respond as soon as possible.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+        {/**TODO: create custom toggles for FAQ that are purple */}
+        <Accordion defaultActiveKey="4">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>What opportunities does SWE provide for UC Berkeley students?</Accordion.Header>
+            <Accordion.Body>
+              SWE organizes many different events for students throughout the semester. We hold infosessions and career workshops with our sponsors, giving students the unique opportunity to network with industry leaders and professionals. There are also volunteer opportunities through our various outreach programs. Furthermore, we have socials and hangouts for members to come and have fun together. We also can't forget about our advocacy, equity, and inclusion focused workshops! To stay up to date with all the latest events, sign up for our weekly SWEmails!
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
+            <Accordion.Header>What opportunities does SWE provide for elementary, middle school, and high school students?</Accordion.Header>
+            <Accordion.Body>
+              SWE has many different outreach programs for all elementary, middle school, high school, and prospective students. To learn more about them visit our outreach page.
+              Who can join?
+              SWE is open to all UC Berkeley students who are interested! Our members come from a diverse background of engineers and other STEM-related fields. Regardless of major, gender, and identities, SWE is an inclusive space for anyone who is passionate about Gender Equality in STEM.
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="2">
+            <Accordion.Header>How can I get involved in SWE?</Accordion.Header>
+            <Accordion.Body>
+              The best way to get involved is to become a committee member and/or apprentice. Our committee applications open at our first General Meeting of the semester. Our officer applications open towards the end of every semester. To learn more about each position visit our get involved page.
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="3">
+            <Accordion.Header>Our company is interested in partnering with SWE. Where do we start?</Accordion.Header>
+            <Accordion.Body>
+              We're excited to have you join us! You can view our corporate package and learn more at our corporate page.
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="4">
+            <Accordion.Header>More questions?</Accordion.Header>
+            <Accordion.Body>
+              You can email us at swe.berkeley@gmail.com for any of your inquiries. We try to respond as soon as possible.
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
       </Container>
     </div>
   );
