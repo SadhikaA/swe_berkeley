@@ -20,7 +20,7 @@ const About = () => {
         <div className="about-heading">Awards</div>
         <Row>
           <Col sm={2}>
-            <img src={gold} alt="Gold Award" />
+            <img src={gold} className="awards" alt="Gold Award" />
             {/**<a href="https://www.flaticon.com/free-icons/gold-medal" title="gold medal icons">Gold medal icons created by Freepik - Flaticon</a>*/}
           </Col>
           <Col sm={4}>
@@ -37,7 +37,7 @@ const About = () => {
             </p>
           </Col>
           <Col sm={2}>
-            <img src={silver} alt="Silver Award" />
+            <img src={silver} className="awards" alt="Silver Award" />
             {/**<a href="https://www.flaticon.com/free-icons/silver-medal" title="silver medal icons">Silver medal icons created by Freepik - Flaticon</a> */}</Col>
           <Col sm={4}>
             <h5>Silver</h5>

@@ -1,5 +1,7 @@
 import swe from '../images/swe.png';
 import React from "react";
+import "../App.css";
+import "./navbar.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,9 +11,8 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const Navigation = () => {
   return (
-    <Navbar className='color-nav' expand="lg">
+    <Navbar className='color-nav'>
       {/* TODO: highlight selected component in navbar instead of blue glitch */}
-      {/* FIXME: Make the size of dropdowns smaller */}
       <Container>
         <Navbar.Brand>
           <LinkContainer to="/">
@@ -53,7 +54,6 @@ const Navigation = () => {
               <Nav.Link>CORPORATE</Nav.Link>
             </LinkContainer>
             <NavDropdown title="GET INVOLVED" id="basic-nav-dropdown">
-              {/* FIXME: Make the size of these smaller */}
               {/* FIXME: Weird blue glitch when clicked on - related to css? */}
               <NavDropdown.Item>
                 <LinkContainer to="/involved_s">

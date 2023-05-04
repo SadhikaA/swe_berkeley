@@ -33,13 +33,13 @@
     margin-left: 5%;
 }
 
-img {
+.awards {
     width: 100%;
     position: center;
 }
 
 /** Shake animation for images */
-img:hover {
+.awards:hover {
     animation: shake 5s;
     animation-iteration-count: infinite;
 }
@@ -82,7 +82,7 @@ h5 {
     padding-bottom: 30px;
 }
 
-/** Change CSS for buttons to match rest of page when opened as well, get rid of highlight and blue colortones*/
+/** Change CSS for buttons to match rest of page when opened*/
 .accordion button.active,
 .accordion button:hover{
     background-color: #7D7ABC;
