@@ -16,6 +16,8 @@ const InvolvedAlumni = () => {
         <Col>
           <img src={alum1} style={{width: '50%'}} alt="empty"/>
           <h5>Alumni Brunch</h5>
+          <img src={alum1} style={{width: '50%'}} alt="empty"/>
+          <h5>Alumni Brunch</h5>
         </Col>  
         <Col>
         <img src={alum2} style={{width: '50%'}} alt="empty"/>
