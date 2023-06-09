@@ -1,0 +1,30 @@
+.corp-btn:hover {   
+    background-color: #3f2065;
+}
+
+.button:hover {
+    background-color: #3f2065;
+}
+
+.corp {
+    background-color: #603B8E;
+    border-color: #3f2065;
+}
+
+.btn {
+    background-color: #603B8E;
+}
+
+.btn-primary {
+    background-color: #603B8E;
+
+}
+
+.custom-btn {
+    background: #fff;
+    color: red;
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
