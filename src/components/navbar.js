@@ -11,7 +11,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const Navigation = () => {
   return (
-    <Navbar className='color-nav'>
+    <Navbar>
       {/* TODO: highlight selected component in navbar instead of blue glitch */}
       <Container>
         <Navbar.Brand>
