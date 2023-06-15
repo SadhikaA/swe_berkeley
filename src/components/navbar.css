@@ -1,9 +1,3 @@
-.color-nav {
-  display: flex;
-  align-items: right;
-  justify-content: right;
-}
-
-.navbar-expand {
-  justify-content: flex-end;
+.navbar-nav {
+  margin-left: auto;
 }
