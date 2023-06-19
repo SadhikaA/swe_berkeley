@@ -33,6 +33,7 @@ const Officers = () => {
       </Row>
       <Row>
         <h3>Marketing</h3>
+        <Col>Jessie Liu, Webmaster</Col>
       </Row>
       <Row>
         <h3>Project Team</h3>
