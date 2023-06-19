@@ -1,4 +1,3 @@
-
 h3 {
   text-align: center;
 }
@@ -8,6 +7,88 @@ h3 {
   flex-wrap: wrap;
   padding: 0 4px;
   justify-content: center;
+}
+
+.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4 {
+  width: 6em;
+  height: 6em;
+  margin: 50px;
+  position: relative;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}
+
+.jigsaw1, .jigsaw1 span {
+  background-color: #d6ccff;
+}
+
+.jigsaw2, .jigsaw2 span {
+  background-color: #f0dfc8;
+}
+
+.jigsaw3, .jigsaw3 span {
+  background-color: #c6d8ff;
+}
+
+.jigsaw4, .jigsaw4 span {
+  background-color: #edcede;
+}
+
+.text {
+  display: block;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  padding: 1.9em 0 0 1.2em;
+  position: relative;
+  background: transparent !important;
+}
+
+.jigsaw1 .t, .jigsaw2 .t, .jigsaw3 .t, .jigsaw4 .t {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: -1.5em;
+  left: 2em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .r, .jigsaw2 .r, .jigsaw3 .r, .jigsaw4 .r {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 2em;
+  left: 5.5em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .b, .jigsaw2 .b, .jigsaw3 .b, .jigsaw4 .b {
+  width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 4.5em;
+  left: 2.2em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: #fff;
+}
+
+.jigsaw1 .l, .jigsaw2 .l, .jigsaw3 .l, .jigsaw4 .l {
+  width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 2.2em;
+  left: -.4em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: #fff;
 }
 
 
@@ -61,6 +142,7 @@ header.masthead .site-heading {
 }
 
 @media only screen and (min-width: 768px) {
+
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
@@ -100,6 +182,7 @@ header.masthead .site-heading .subheading {
 }
 
 @media only screen and (min-width: 768px) {
+
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
     font-size: 70px;
@@ -138,6 +221,7 @@ header.masthead .post-heading .meta a {
   header.masthead .post-heading h1 {
     font-size: 55px;
   }
+
   header.masthead .post-heading .subheading {
     font-size: 30px;
   }

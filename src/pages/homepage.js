@@ -6,11 +6,6 @@ const Home = () => {
   return (
     <div>
       {/* TODO: add background image */}
-
-      {/* TODO: puzzle pieces */}
-      {/* TODO: live instagram feed */}
-      {/* TODO: calendar of events */}
-      {/* TODO: connect with us */}
       <header className="masthead">
         <div className="gradient"></div>
         <div className="graphics fadeIn"></div>
@@ -27,17 +22,55 @@ const Home = () => {
           {/* TODO: what is swe */}
           <Card body style={{ width: '30em' }} className="text-center" >SWE is a...</Card>
         </Row>
-        <Row>
+         <Row>
           <Button variant="primary" size="sm" href=""
-              style={{ 
-                background: "#603B8E", 
-                padding: "5px",
-                borderColor: "#603B8E", 
-                width: '10em' 
-              }} >
+            style={{
+              background: "#603B8E",
+              padding: "5px",
+              borderColor: "#603B8E",
+              width: '10em'
+            }} >
             Get Involved
           </Button>
         </Row>
+        <Row>
+          <Col>
+          <div class="jigsaw1">
+          <span class="r"></span>
+          <span class="r"></span>
+          <span class="r"></span>
+          <span class="b"></span>
+          <span class="text">SWE is</span>
+        </div>
+        <div class="jigsaw2">
+          <span class="b"></span>
+          <span class="b"></span>
+          <span class="b"></span>  {/* this has to be bottom out */}
+          <span class="l"></span>
+          <span class="text">Drag me</span>
+        </div>
+        <div class="jigsaw3">
+          <span class="r"></span>
+          <span class="r"></span>
+          <span class="b"></span>
+          <span class="l"></span>
+          <span class="text">Drag me</span>
+        </div>
+        <div class="jigsaw4">
+          <span class="r"></span>
+          <span class="r"></span>
+          <span class="b"></span>
+          <span class="l"></span>
+          <span class="text">Drag me</span>
+        </div>
+          </Col>
+          <Col> 
+          <h3>Currently, SWE is...</h3>
+          
+          </Col>
+        </Row>
+        
+        
       </Container>
     </div>
   );
