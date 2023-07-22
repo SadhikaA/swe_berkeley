@@ -5,7 +5,8 @@ const Officers = () => {
   return (
     <div>
       {/* TODO: add descriptions for mission */}
-      {/* TODO: add everyone's photos */}
+      {/* TODO: add everyone's photos  */ }
+      {/* TODO: FINI add names and title */ }
       <div className="h1-rectangle">
         <Container><h1>Officers</h1></Container>
       </div>
