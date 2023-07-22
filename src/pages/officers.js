@@ -21,7 +21,7 @@ const Officers = () => {
         <Col>Alexis Abigail Amuro, Treasurer</Col>
       </Row>
       <Row>
-        <h3>President</h3>
+        <h3>President Section</h3>
         <Col>Julie Lynch, Senior Advisor</Col>
         <Col>Esme Cohen, President Advisor</Col>
         <Col>Ayla Karmali, Equity and Inclusion Advisor</Col>
@@ -39,7 +39,7 @@ const Officers = () => {
         <Col>Jessica Young, Mentorship Chair</Col>
       </Row>
       <Row>
-        <h3>Outreach</h3>
+        <h3>K-12 Outreach</h3>
         <Col>Elaine Tong, SWENext Co-Chair</Col>
         <Col>Arundhati Parikh, SWENext Co-Chair</Col>
         <Col>Heather Wei, Elementary and Middle School Outreach Co-Chair</Col>
@@ -63,7 +63,7 @@ const Officers = () => {
         <Col>Cerise Wong, Evening with Industry</Col>
       </Row>
       <Row>
-        <h3>Secretary</h3>
+        <h3>Secretary Section</h3>
         <Col>Sadhika Akula, Public Relations</Col>
         <Col>Ciela Cheung, Public Relations</Col>
         <Col>Michelle Park, Social Media</Col>
@@ -71,7 +71,7 @@ const Officers = () => {
         <Col>Jessie Liu, Webmaster</Col>
       </Row>
       <Row>
-        <h3>Treasurer</h3>
+        <h3>Treasurer Section</h3>
         <Col>Megan Chan, Treasurer Advisor</Col>
         <Col>Aditi Bhat, Team Tech Co-Chair</Col>
         <Col>Kelly Tsai, Team Tech Co-Chair</Col>
