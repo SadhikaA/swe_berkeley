@@ -19,7 +19,7 @@ const Home = () => {
       <Container>
         <Row>
           <h3>What is SWE?</h3>
-          {/* TODO: what is swe */}
+          {/* TODO: what is swe JESSIE: I need to know what website looks like lol*/} 
           <Card body style={{ width: '30em' }} className="text-center" >SWE is a...</Card>
         </Row>
          <Row>
