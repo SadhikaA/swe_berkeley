@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { LinkContainer } from 'react-router-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 const Navigation = () => {
@@ -72,11 +72,9 @@ const Navigation = () => {
             <LinkContainer to="/officers">
               <Nav.Link>OFFICERS</Nav.Link>
             </LinkContainer>
-            {/* TODO: add link to SWE medium: https://medium.com/uc-berkeley-swe */}
-            <LinkContainer to="">
-              <Nav.Link>BLOG</Nav.Link>
-            </LinkContainer>
-            
+            <Navbar.Text>
+              <a href="https://medium.com/uc-berkeley-swe">BLOG</a>
+            </Navbar.Text>
           </Nav>
         </Navbar.Collapse>
       </Container>

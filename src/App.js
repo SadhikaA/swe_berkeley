@@ -3,6 +3,7 @@ import './App.css';
 
 /** Handles navigation between pages by routing paths to new pages */
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Navigation from './components/navbar';
 import Footer from './components/footer';
 
@@ -32,7 +33,7 @@ return (
         <Route path='/involved_s' element={<InvolvedStudent/>} />
         <Route path='/officers' element={<Officers/>} />
     </Routes>
-    <Footer />
+    <Footer />  
     </Router>
 );
 }

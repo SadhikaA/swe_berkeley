@@ -31,7 +31,7 @@ const Footer = () => {
                   <a href="https://open.spotify.com/show/7N32339d1A3GtiO2jz4T8I"><img className="icons" src={spotify} alt="Spotify Logo"/></a>
                   <a href="https://www.redbubble.com/people/ucbswe/shop"><img className="icons" src={shop} alt="Shop Logo"/></a>
                   <a href="https://www.tiktok.com/@ucb_swe"><img className="icons" src={tiktok} alt="Tiktok Logo"/></a>
-                  <p>Copyright &copy; Society of Women Engineers 2023</p>
+                  <p>Copyright &copy; UC Berkeley Society of Women Engineers 2023</p>
             <img src="https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_mini8.png" alt="Hosted by the OCF"/>
                 </Col>
                 <Col>
