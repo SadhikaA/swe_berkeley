@@ -73,7 +73,7 @@ const Navigation = () => {
               <Nav.Link>OFFICERS</Nav.Link>
             </LinkContainer>
             <Navbar.Text>
-              <a href="https://medium.com/uc-berkeley-swe">BLOG</a>
+              <a className="blog" href="https://medium.com/uc-berkeley-swe">BLOG</a>
             </Navbar.Text>
           </Nav>
         </Navbar.Collapse>

@@ -18,6 +18,10 @@ import treasurer from "../images/officersFA23/alexis.png";
 
 /** Corporate */
 
+/** Marketing */
+
+/** Project Team */
+
 const Officers = () => {
   return (
     <div>
