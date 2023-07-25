@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans&display=swap');
 
+.content {
+    padding-right: 7vw;
+    padding-left: 7vw;
+}
+
 /** Purple rectangle around each heading */
 .h1-rectangle {
     position: relative;
+    align-items: center;
     width: 100%;
-    height: 9vh;
+    height: 12vh;
+    margin-bottom: 2vh;
     background: #7D7ABC;
 }
 
@@ -17,11 +24,11 @@ p {
 /** Main Heading for each page */
 h1 {
     font-family: 'League Spartan';
+    text-align: center;
     font-style: bold;
     font-weight: 1000;
-    font-size: 36px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    font-size: 40px;
+    padding-top: 3vh;
     color: #FFFFFF;
 }
 

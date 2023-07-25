@@ -1,86 +1,85 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
+
+/** Officers */
+/** When updating officers here, make a new folder officersSEM/person's name */
+/** Execs */
+import president from "../images/officersFA23/kirthi.jpg";
+import vpInternal from "../images/officersFA23/vivian.png";
+import vpOutreach from "../images/officersFA23/clara.jpeg";
+import vpCorporate from "../images/officersFA23/joelle.jpg";
+import secretary from "../images/officersFA23/olivia.jpeg";
+import treasurer from "../images/officersFA23/alexis.png";
+/** Internal Relations */
+
+/** External Relations */
+
+/** Outreach */
+
+/** Corporate */
+
+/** Marketing */
+
+/** Project Team */
 
 const Officers = () => {
   return (
     <div>
-      {/* TODO: add descriptions for mission */}
-      {/* TODO: add everyone's photos  */ }
-      {/* TODO: FINI add names and title */ }
+      {/* TODO: add everyone's photos */}
       <div className="h1-rectangle">
-        <Container><h1>Officers</h1></Container>
+        <h1>Officers</h1>
       </div>
-    <Container>
-      <Row>
-        <h3>Executive Board</h3>
-        <Col>Kirthi Kumar, President</Col>
-        <Col>Vivian Chung, VP of Internal Relations</Col>
-        <Col>Clara Hung, VP of Outreach</Col>
-        <Col>Joelle Siong Sin, VP of Corporate Relations</Col>
-        <Col>Olivia Kris, Secretary</Col>
-        <Col>Alexis Abigail Amuro, Treasurer</Col>
-      </Row>
-      <Row>
-        <h3>President Section</h3>
-        <Col>Julie Lynch, Senior Advisor</Col>
-        <Col>Esme Cohen, President Advisor</Col>
-        <Col>Ayla Karmali, Equity and Inclusion Advisor</Col>
-        <Col>Addie Brandt, Advocacy Director</Col>
-        <Col>Rachel Burdick Toy, Advocacy Director </Col>
-        <Col>Mara Alonso, Transfer Student Outreach Co-Chair</Col>
-        <Col>Laura Wong, Transfer Student Outreach Co-Chair</Col>
-
-      </Row>
-      <Row>
-        <h3>Internal Relations</h3>
-        <Col>Jennifer Toy, Internal Advisor</Col>
-        <Col>Rachel Burdick, Membership Director</Col>
-        <Col>Kaylie Ching, Intersocietal Chair</Col>
-        <Col>Jessica Young, Mentorship Chair</Col>
-      </Row>
-      <Row>
-        <h3>K-12 Outreach</h3>
-        <Col>Elaine Tong, SWENext Co-Chair</Col>
-        <Col>Arundhati Parikh, SWENext Co-Chair</Col>
-        <Col>Heather Wei, Elementary and Middle School Outreach Co-Chair</Col>
-        <Col>Farah Cisse, Elementary and Middle School Outreach Co-Chair</Col>
-        <Col>Amelyn Phang, Mini University Co-Chair</Col>
-        <Col>Camille Dang, Mini University Co-Chair</Col>
-        <Col>Negar Mordeshian, High School Engineering Program Co-Chair</Col>
-        <Col>Kristen Song, High School Engineering Program Co-Chair</Col>
-        <Col>Aisha Gupta, Engineering Day</Col>
-        <Col>America Castenada, SWE++</Col>
-        <Col>Inas Zulaikha, SWE++</Col>
-      </Row>
-      <Row>
-        <h3>Corporate Relations</h3>
-        <Col>Breanna Yang, Corporate Advisor</Col>
-        <Col>REbecca Costa, Shadow and Engineer Co-Chair</Col>
-        <Col>Swetha Rajkumar, Shadow and Engineer Co-Chair</Col>
-        <Col>Erica Cardozo, Professional Development Month Co-Chair+</Col>
-        <Col>Yujin Huh, Professional Development Month Co-Chair+</Col>
-        <Col>Allison Hong, Evening with Industry</Col>
-        <Col>Cerise Wong, Evening with Industry</Col>
-      </Row>
-      <Row>
-        <h3>Secretary Section</h3>
-        <Col>Sadhika Akula, Public Relations</Col>
-        <Col>Ciela Cheung, Public Relations</Col>
-        <Col>Michelle Park, Social Media</Col>
-        <Col>Amanda Shiu, Social Media</Col>
-        <Col>Jessie Liu, Webmaster</Col>
-      </Row>
-      <Row>
-        <h3>Treasurer Section</h3>
-        <Col>Megan Chan, Treasurer Advisor</Col>
-        <Col>Aditi Bhat, Team Tech Co-Chair</Col>
-        <Col>Kelly Tsai, Team Tech Co-Chair</Col>
-        <Col>Annie Lin, Society and Alumni</Col>
-        <Col>Grace Qian, Academic Chair</Col>
-      </Row>
-    </Container>
-  </div>
+      <div className="content">
+        <Container>
+          <Row>
+            <h3>Executive</h3>
+            <Col className="text-center" md={2}>
+              <Row className="mb-2"><Image src={president} /></Row>
+              <Row><strong>Kirthi Kumar</strong><br></br><em>she/her/hers</em>President</Row>
+            </Col>
+            <Col className="text-center" md={2}>
+              <Row className="mb-2"><Image src={vpInternal} /></Row>
+              <Row><strong>Vivian Chung</strong><br></br><em>she/her/hers</em>VP of Internal Relations</Row>
+            </Col>
+            <Col className="text-center" md={2}>
+              <Row className="mb-2"><Image src={vpOutreach} /></Row>
+              <Row><strong>Clara Hung</strong><br></br><em>she/her/hers</em>VP of Outreach</Row>
+            </Col>
+            <Col className="text-center" md={2}>
+              <Row className="mb-2"><Image src={vpCorporate} /></Row>
+              <Row><strong>Joelle Siong Sin</strong><br></br><em>she/her/hers</em>VP of Corporate Relations</Row>
+            </Col>
+            <Col className="text-center" md={2}>
+              <Row className="mb-2"><Image src={secretary} /></Row>
+              <Row><strong>Olivia Kris</strong><br></br><em>she/her/hers</em>Secretary</Row>
+            </Col>
+            <Col className="text-center" md={2}>
+              <Row className="mb-2"><Image src={treasurer} /></Row>
+              <Row><strong>Alexis Alburo</strong><br></br><em>she/her/hers</em>Treasurer</Row>
+            </Col>
+          </Row>
+          <Row>
+            <h3>Internal Relations</h3>
+          </Row>
+          <Row>
+            <h3>External Relations</h3>
+          </Row>
+          <Row>
+            <h3>Outreach</h3>
+          </Row>
+          <Row>
+            <h3>Corporate</h3>
+          </Row>
+          <Row>
+            <h3>Marketing</h3>
+          </Row>
+          <Row>
+            <h3>Project Team</h3>
+          </Row>
+        </Container>
+      </div>
+    </div>
   );
 };
-  
+
 export default Officers;
